@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #9e6c74;
+}
+
+.contenedor {
+    display: flex;
+    height: 100vh;
+}
+
+.nav {
+    background-image: url('img/Diseño\ sin\ título.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    min-width: 200px;
+    flex: 1;
+    max-width: 300px;
+    padding: 20px;
+    opacity: 0.8;
+    width: 32vh;
+    position: fixed;
+}
+
+.nav ul {
+    list-style: none;
+    justify-items: center;
+    margin-top: 100%;
+}
+
+.nav li {
+    display: flex;
+    margin: 10px;
+    margin-bottom: 10vh;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 5vh;
+}
+
+.nav a:hover {
+    color: #ffd54f;
+    transition: 0.3s;
+}
+
+.principal {
+    flex: 4;
+    padding: 30px;
+    margin-left: 250px;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 4vh;
+}
+
+.sinopsis {
+    font-size: larger;
+    color: black;
+}
+
+.sinopBox {
+    background-color: #f0b0dc;
+    opacity: 0.7;
+    border-radius: 2vh;
+    padding: 2vh;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5vh;
+    flex-wrap: wrap;
+}
+
+.secondary {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5vh;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    display: flex;
+    width: 30vh;
+    height: 20vh;
+    flex: 1;
+    border-radius: 2vh;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: ease 0.3s all;
+}
+
+.tarjeta:hover{
+    flex: 2;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.name{
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.name:hover{
+    color: #f0b0dc;
+    font-size:large;
+    transition: 0.7s;
+}
+
+/*Tarjeta*/
+
+.mainUno{
+    background-image: url('img/princi/Cecilia\ Lisbon.png');
+    background-size: cover;
+    background-position: center;
+}
+.mainDos{
+    background-image: url('img/princi/Lux.png');
+    background-size: cover;
+    background-position: center;
+}
+.mainTres{
+    background-image: url('img/princi/Mary.png');
+    background-size: cover;
+    background-position: center;
+}
+.mainCuatro{
+    background-image: url('img/princi/Therese.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.mainCinco{
+    background-image: url('img/princi/bonnie\ lisbon.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.secoUno{
+    background-image: url('img/sec/Padres.png');
+    background-size: cover;
+    background-position: center;
+}
+.secoDos{
+    background-image: url('img/sec/los-muchachos.png');
+    background-size: cover;
+    background-position: center;
+}
+.secoTres{
+    background-image: url('img/sec/Trip\ Fontaine.png');
+    background-size: cover;
+    background-position: center;
+}
+.secoCuatro{
+    background-image: url('img/sec/unnamed.png');
+    background-size: cover;
+    background-position: center;
+}
