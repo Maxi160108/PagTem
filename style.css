@@ -100,6 +100,8 @@ h1 {
     align-items: center;
     cursor: pointer;
     transition: ease 0.3s all;
+    background-size: cover;
+    background-position: center;
 }
 
 .tarjeta:hover{
@@ -127,48 +129,31 @@ h1 {
 
 .mainUno{
     background-image: url('img/princi/Cecilia\ Lisbon.png');
-    background-size: cover;
-    background-position: center;
+    
 }
 .mainDos{
     background-image: url('img/princi/Lux.png');
-    background-size: cover;
-    background-position: center;
 }
 .mainTres{
     background-image: url('img/princi/Mary.png');
-    background-size: cover;
-    background-position: center;
 }
 .mainCuatro{
     background-image: url('img/princi/Therese.png');
-    background-size: cover;
-    background-position: center;
 }
 
 .mainCinco{
     background-image: url('img/princi/bonnie\ lisbon.png');
-    background-size: cover;
-    background-position: center;
 }
 
 .secoUno{
     background-image: url('img/sec/Padres.png');
-    background-size: cover;
-    background-position: center;
 }
 .secoDos{
     background-image: url('img/sec/los-muchachos.png');
-    background-size: cover;
-    background-position: center;
 }
 .secoTres{
     background-image: url('img/sec/Trip\ Fontaine.png');
-    background-size: cover;
-    background-position: center;
 }
 .secoCuatro{
     background-image: url('img/sec/unnamed.png');
-    background-size: cover;
-    background-position: center;
 }
